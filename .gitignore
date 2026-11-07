@@ -1,0 +1,22 @@
+# Build output and local runtime data
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Machine-local config / logs / screenshots
+MSM-settings.ini
+MSM-config.json
+MSM-config.json.*
+*.log
+screenshots/
+*.bak
+*.tmp
+
+# OS clutter
+Thumbs.db
+desktop.ini
+
+# Local-only development notes (never publish)
+docs/*.md
